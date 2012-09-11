@@ -1,0 +1,6 @@
+This is an attempt to make a tethered FORTH that fast and easy to port.
+
+It has a minimal "one word" boot prom (monitor.c) which should be able 
+to be hand coded in a pinch, and be metacompiled up (probably based on pygmy 
+or FreeFORTH).
+
