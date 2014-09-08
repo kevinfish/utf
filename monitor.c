@@ -50,7 +50,7 @@ int main(void) {
 
   /* then send up the value that is currently there */
 
-  fwrite(&mem[idx], sizeof(int), 1, stdout);
+  fwrite(&mem[idx], sizeof(val), 1, stdout);
   
   /* then set that location to that value */
 
